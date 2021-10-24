@@ -8,3 +8,9 @@ Copy/paste this into your terminal.
   exit
 ```
 Press enter to close your terminal!
+
+Once you're inside the project, open up the terminal and run 
+```
+  npm install
+  npm run dbInit
+```

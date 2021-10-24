@@ -9,21 +9,27 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       bandName: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       yearFounded: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       genreID: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       originCity: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       originState: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       members: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {

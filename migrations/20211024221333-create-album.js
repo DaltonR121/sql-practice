@@ -9,21 +9,27 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       albumName: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       released: {
+        allowNull: false,
         type: Sequelize.DATEONLY
       },
       bandID: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       studioID: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       labelID: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       genreID: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       createdAt: {
