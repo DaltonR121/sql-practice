@@ -1,0 +1,30 @@
+{
+  "name": "sql-practice",
+  "version": "1.0.0",
+  "description": "Repo to practice writing SQL queries",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "createDB": "npx sequelize-cli db:create",
+    "dropDB": "npx sequelize-cli db:drop",
+    "migrate": "npx sequelize-cli db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaltonR121/sql-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaltonR121/sql-practice/issues"
+  },
+  "homepage": "https://github.com/DaltonR121/sql-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.8.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
