@@ -20,10 +20,6 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER
       },
-      studioID: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
       labelID: {
         allowNull: false,
         type: Sequelize.STRING
