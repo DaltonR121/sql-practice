@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   };
   Album.init({
     albumName: DataTypes.STRING,
-    released: DataTypes.DATEONLY,
+    released: DataTypes.INTEGER,
     bandID: DataTypes.INTEGER,
     labelID: DataTypes.STRING,
     genreID: DataTypes.INTEGER

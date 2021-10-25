@@ -14,7 +14,7 @@ module.exports = {
       },
       released: {
         allowNull: false,
-        type: Sequelize.DATEONLY
+        type: Sequelize.INTEGER
       },
       bandID: {
         allowNull: false,
