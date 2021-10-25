@@ -18,15 +18,18 @@ module.exports = {
       },
       bandID: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: { model: 'Bands' }
       },
       labelID: {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER,
+        references: { model: 'Labels' }
       },
       genreID: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: { model: 'Genres' }
       },
       createdAt: {
         allowNull: false,

@@ -18,7 +18,8 @@ module.exports = {
       },
       genreID: {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER,
+        references: { model: 'Genres' }
       },
       originCity: {
         allowNull: false,

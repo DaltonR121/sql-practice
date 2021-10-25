@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     albumName: DataTypes.STRING,
     released: DataTypes.INTEGER,
     bandID: DataTypes.INTEGER,
-    labelID: DataTypes.STRING,
+    labelID: DataTypes.INTEGER,
     genreID: DataTypes.INTEGER
   }, {
     sequelize,
